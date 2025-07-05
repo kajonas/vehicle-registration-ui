@@ -19,6 +19,10 @@ export class VehicleService {
     return this.http.get<Model[]>(`${this.baseUrl}/models/${makeId}`);
   }
 
+  getVehicles(): Observable<Vehicle[]> {
+    return this.http.get<Vehicle[]>(`${this.baseUrl}/vehicles`);
+  }
+
   saveVehicle(vehicle: Vehicle): Observable<Vehicle> {
     return this.http.post<Vehicle>(`${this.baseUrl}/vehicles`, vehicle);
   }

@@ -29,6 +29,11 @@ public class VehicleController {
         return vehicleService.getModelsByMake(makeId);
     }
 
+    @GetMapping("/vehicles")
+    public List<Vehicle> getVehicles() {
+        return vehicleService.getAllVehicles();
+    }
+
     @PostMapping("/vehicles")
     public ResponseEntity<Vehicle> saveVehicle(@RequestBody Vehicle vehicle) {
         return ResponseEntity.ok(vehicleService.saveVehicle(vehicle));

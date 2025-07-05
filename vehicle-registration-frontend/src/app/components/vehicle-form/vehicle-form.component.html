@@ -18,7 +18,7 @@
     <option *ngFor="let model of models" [ngValue]="model">{{ model.name }}</option>
   </select>
 
-  <button type="submit" [disabled]="form.">Submit</button>
+  <button type="submit" [disabled]="form.invalid">Submit</button>
 </form>
 
 <hr />

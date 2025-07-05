@@ -31,6 +31,10 @@ public class VehicleService {
         return modelRepo.findByMakeId(makeId);
     }
 
+    public List<Vehicle> getAllVehicles() {
+        return vehicleRepo.findAll();
+    }
+
     public Vehicle saveVehicle(Vehicle vehicle) {
         return vehicleRepo.save(vehicle);
     }

@@ -24,6 +24,11 @@ public class VehicleController {
         return vehicleService.getAllMakes();
     }
 
+    @GetMapping("/models-by-name/{makeName}")
+    public List<Model> getModelsByName(@PathVariable String makeName) {
+        return vehicleService.getModelsByName(makeName);
+    }
+
     @GetMapping("/models/{makeId}")
     public List<Model> getModels(@PathVariable Long makeId) {
         return vehicleService.getModelsByMake(makeId);

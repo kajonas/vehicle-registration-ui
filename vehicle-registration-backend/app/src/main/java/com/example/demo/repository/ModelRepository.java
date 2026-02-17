@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface ModelRepository extends JpaRepository<Model, Long> {
     List<Model> findByMakeId(Long makeId);
+    List<Model> findByName(String name);
 }
 

@@ -1,30 +1,24 @@
 # VehicleRegistrationFrontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.\
+
+In this README, you'll see a green arrow (when rendered in markdown view) next to some commands\
+These commands are runnable just by clicking on the green arrow.\
+Clicking the green arrow will open a command prompt.\
+The Directory will be set to the root of this project, and the command will run.
+
+
+
+
 
 ## Development server
 
-To start a local development server, run:
-
+To start a local development server\
 ```bash
 ng serve
-```
+````
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
 
 ## Building
 
@@ -57,3 +51,19 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+

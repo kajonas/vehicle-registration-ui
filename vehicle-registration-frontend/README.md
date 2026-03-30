@@ -7,10 +7,6 @@ These commands are runnable just by clicking on the green arrow.\
 Clicking the green arrow will open a command prompt.\
 The Directory will be set to the root of this project, and the command will run.
 
-
-
-
-
 ## Development server
 
 To start a local development server\

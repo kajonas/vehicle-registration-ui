@@ -1,6 +1,8 @@
-/build/
-/.gradle/
-/out/
-/.idea/
+/.idea
+/.gradle
+/build
+/app/build
+/out
 *.iml
+
 

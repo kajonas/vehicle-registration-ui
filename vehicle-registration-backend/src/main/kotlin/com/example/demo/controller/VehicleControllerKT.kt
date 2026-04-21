@@ -23,16 +23,10 @@ class VehicleControllerKT(
     }
 
 
-//    @GetMapping("/{id}")
-//    fun getVehicle(@PathVariable id: Long): ResponseEntity<Vehicle> {
-//        val vehicle = vehicleService.getVehicleById(id)
-//        return vehicle?.let { ResponseEntity.ok(it) }
-//            ?: ResponseEntity.notFound().build()
-//    }
-
     @PostMapping
     fun createVehicle(@RequestBody vehicle: Vehicle): ResponseEntity<Vehicle> {
         val saved = vehicleService.saveVehicle(vehicle)
         return ResponseEntity.ok(saved)
     }
 }
+

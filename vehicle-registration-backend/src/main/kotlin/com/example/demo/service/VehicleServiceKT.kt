@@ -17,3 +17,4 @@ class VehicleService {
         return newVehicle
     }
 }
+

@@ -6,3 +6,4 @@ data class Vehicle(
     val model: String,
     val year: Int
 )
+

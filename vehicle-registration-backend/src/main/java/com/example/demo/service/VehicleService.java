@@ -27,6 +27,10 @@ public class VehicleService {
         return makeRepo.findAll();
     }
 
+    public List<Model> getModels() {
+        return modelRepo.findAll();
+    }
+
     public List<Model> getModelsByMake(Long makeId) {
         return modelRepo.findByMakeId(makeId);
     }
